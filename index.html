@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+
+  <div class="header-container | text-neutral-400">
+    <header class="gap">
+      <div class="header-wrapper">
+        <img src="./images/logo.svg" alt="Sunnyside logo">
+        <div class="header-nav">
+          <button class="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+          </button>
+          <nav class="primary-nav" id="primary-nav">
+            <ul class="primary-nav-list | fs-300">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+            <button class="btn | uppercase ff-secondary text-secondary-700 fs-400 bg-neutral-400 fw-bold">Contact</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <h1 class="header-title | uppercase ff-secondary fs-800 fw-bolder">we are creatives</h1>
+  </div>
+
+  <main>
+    <div class="grid-container">
+      <div class="subgrid">
+        <div class="subgrid-info | gap">
+          <h2 class="ff-secondary text-secondary-700 fs-700 fw-bold">Transform your brand</h2>
+          <p class="fs-400 text-secondary-500">We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#" class="subgrid-link | ff-secondary uppercase">Learn more</a>
+        </div>
+        <div class="subgrid-image first-img">
+          <picture>
+            <source srcset="./images/desktop/image-transform.jpg" media="(min-width: 40em)">
+            <img src="./images/mobile/image-transform.jpg" alt="egg image">
+          </picture>
+        </div>
+      </div>
+      <div class="subgrid">
+        <div class="subgrid-image">
+          <picture>
+            <source srcset="./images/desktop/image-stand-out.jpg" media="(min-width: 40em)">
+            <img src="./images/mobile/image-stand-out.jpg" alt="cocktail image">
+          </picture>
+        </div>
+        <div class="subgrid-info | gap">
+          <h2 class="ff-secondary text-secondary-700 fs-700 fw-bold">Stand out to the right audience</h2>
+          <p class="fs-400 text-secondary-500">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <a href="#" class="subgrid-link inset-link | ff-secondary uppercase">Learn more</a>
+        </div>
+      </div>
+      <div class="subgrid">
+        <div class="subgrid-info first-background | gap">
+          <h3 class="text-primary-500 fs-600 fw-bold ff-secondary">Graphic design</h3>
+          <p class="fs-400 text-primary-500">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          </p>
+        </div>
+        <div class="subgrid-info second-background | gap">
+          <h3 class="text-primary-600 fs-600 fw-bold ff-secondary">Photography</h3>
+          <p class="fs-400 text-primary-600">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="client-testimonials | bg-neutral-400 text-secondary-600 gap">
+    <h4 class="text-secondary-500 uppercase fw-bold fs-500">Client testimonials</h4>
+    <div class="testimonials-grid">
+      <div class="testimonials-flex">
+        <img class="client-logo" src="./images/image-emily.jpg" alt="client Emily">
+        <p class="text-secondary-600">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="ff-secondary fs-500 text-secondary-700">Emily R.</p>
+        <p class="text-secondary-400 fs-400">Marketing Director</p>
+      </div>
+      <div class="testimonials-flex">
+        <img class="client-logo" src="./images/image-thomas.jpg" alt="client Thomas">
+        <p class="text-secondary-600">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="ff-secondary fs-500 text-secondary-700">Thomas S.</p>
+        <p class="text-secondary-400 fs-400">Chief Operating Officer</p>
+      </div>
+      <div class="testimonials-flex">
+        <img class="client-logo" src="./images/image-jennie.jpg" alt="client Jennie">
+        <p class="text-secondary-600">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="ff-secondary fs-500 text-secondary-700">Jennie F.</p>
+        <p class="text-secondary-400 fs-400">Business Owner</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="collection-grid">
+    <picture>
+      <source srcset="./images/desktop/image-gallery-milkbottles.jpg" media="(min-width: 40em)">
+      <img class="collection-img" src="./images/mobile/image-gallery-milkbottles.jpg" alt="picture of milk bottles">
+    </picture>
+    <picture>
+      <source srcset="./images/desktop/image-gallery-orange.jpg" media="(min-width: 40em)">
+      <img class="collection-img" src="./images/mobile/image-gallery-orange.jpg" alt="picture of orange">
+    </picture>
+    <picture>
+      <source srcset="./images/desktop/image-gallery-cone.jpg" media="(min-width: 40em)">
+      <img class="collection-img" src="./images/mobile/image-gallery-cone.jpg" alt="picture of ice cream cone">
+    </picture>
+    <picture>
+      <source srcset="./images/desktop/image-gallery-sugarcubes.jpg" media="(min-width: 40em)">
+      <img class="collection-img" src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="picture of sugar cubes">
+    </picture>
+  </section>
+
+  <footer class="bg-primary-400 text-primary-500">
+    <div class="footer-flex">
+      <img class="logo" src="./images/logo.svg" alt="Sunnyside logo">
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <ul class="social-links">
+        <li><a href="#"><img class="social-icon" src="./images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="#"><img class="social-icon" src="./images/icon-instagram.svg" alt="instagram icon"></a></li>
+        <li><a href="#"><img class="social-icon" src="./images/icon-twitter.svg" alt="twitter icon"></a></li>
+        <li><a href="#"><img class="social-icon" src="./images/icon-pinterest.svg" alt="pinterest icon"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+<script src="./main.js"></script>
+</body>
+
+</html>
