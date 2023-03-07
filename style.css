@@ -242,6 +242,18 @@ header .page-logo {
   margin-top: 0.75rem;
 }
 
+@media (min-width: 300px) {
+  .mobile-nav {
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .mobile-nav {
+    margin-top: 0;
+  }
+}
+
 /* Header styling */
 
 header {
@@ -522,6 +534,19 @@ header {
 
 .subgrid-link:hover::after {
   opacity: 0.8;
+}
+
+@media (min-width: 40em) {
+  .subgrid-link:after {
+    transform: scaleX(0.15);
+    transform-origin: left;
+    transition: transform 250ms ease-in, opacity 250ms ease-in;
+  }
+
+  .subgrid-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }
 
 .inset-link:after {
