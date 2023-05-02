@@ -28,10 +28,12 @@
     <header>
       <picture class="header-img-wrapper">
         <source srcset="./images/desktop/image-header.jpg" media="(min-width: 40em)">
-        <img class="header-img" src="./images/mobile/image-header.jpg" alt="">
+        <img class="header-img" src="./images/mobile/image-header.jpg" alt="header picture of pretty orange">
       </picture>
       <div class="header-wrapper">
-        <img class="page-logo" src="./images/logo.svg" alt="Sunnyside logo">
+        <a href="#">
+          <img class="page-logo" src="./images/logo.svg" alt="Sunnyside logo">
+        </a>
         <div class="header-nav">
           <button class="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
             <span class="sr-only">Menu</span>
@@ -47,7 +49,8 @@
           </nav>
         </div>
       </div>
-      <h1 class="header-title | uppercase ff-secondary fs-800 fw-bolder">we are creatives</h1>
+      <h1 class="header-title | ff-secondary fs-800 fw-bolder"><span class="letter-animate"
+          data-value="we are creatives">we are creatives</span></h1>
     </header>
   </div>
 
@@ -75,7 +78,7 @@
             <img class="picture-img" src="./images/mobile/image-stand-out.jpg" alt="cocktail image">
           </picture>
         </div>
-        <div class="subgrid-info big-special | reveal-right">
+        <div class="subgrid-info big-special | reveal">
           <h2 class="ff-secondary text-secondary-700 fs-700 fw-bold">Stand out to the right audience</h2>
           <p class="fs-400 text-secondary-500">Using a collaborative formula of designers, researchers, photographers,
             videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
@@ -174,6 +177,7 @@
       </ul>
     </div>
   </footer>
+
 
   <script src="./main.js"></script>
 </body>
