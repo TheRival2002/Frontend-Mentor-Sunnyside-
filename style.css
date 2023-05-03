@@ -358,6 +358,9 @@ header {
 }
 
 @media (max-width: 40em) {
+  .header-wrapper {
+    padding: 1.5rem 1rem;
+  }
   .header-img {
     aspect-ratio: 1;
   }
