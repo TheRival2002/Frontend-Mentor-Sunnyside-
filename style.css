@@ -381,7 +381,7 @@ header {
 
     position: fixed;
     z-index: 999;
-    inset: 100px 2rem auto 2rem;
+    inset: 110px 1rem auto 1rem;
     background-color: var(--clr-neutral-400);
   }
   .primary-nav a {
@@ -394,6 +394,7 @@ header {
     display: block;
     text-align: center;
     padding: 40px;
+    animation: fadeIn 350ms ease;
   }
   .mobile-nav {
     display: block;
@@ -448,6 +449,15 @@ header {
 @media (min-width: 1025px) {
   .header-title {
     font-size: 5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
