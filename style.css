@@ -521,6 +521,7 @@ header {
 }
 
 .subgrid-info-text {
+  padding-inline: 1.25rem;
   align-self: end;
   padding-bottom: clamp(50px, 4vw + 1rem, 100px);
 }
@@ -627,6 +628,7 @@ header {
 
 .testimonials-flex > p:nth-child(2) {
   padding-bottom: 30px;
+  padding-inline: 1.25rem;
 }
 
 .testimonials-flex > p:nth-child(3) {
